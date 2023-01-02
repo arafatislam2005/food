@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+body {
+  font-family: "Noto Serif", serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0 10%;
+  box-shadow: 0px -5px 10px gray;
+}
+
+main {
+  padding: 5% 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  padding: 15px;
+  cursor: pointer;
+}
+.left:hover {
+  background-color: #cccccc;
+  color: white;
+  transition: 0.3s;
+}
+
+h2 {
+  margin: 8px;
+}
+
+.middle {
+  cursor: pointer;
+}
+.fa-house {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  margin: 0 10px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.item1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item2 {
+  display: flex;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .item1,
+  .item2 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
